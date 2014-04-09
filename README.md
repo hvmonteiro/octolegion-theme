@@ -1,8 +1,9 @@
 OctoLegion
-===========
+==========
 
-Legion Bootstrap 3 theme for Octopress ! Check **the demo**
-http://hugovmonteiro.github.io/octolegion-theme/ for setup instructions, customization and examples.
+Legion theme for Octopress based on twitter's bootstrap3.
+Check http://hugovmonteiro.github.io/octolegion-theme/ for 
+setup instructions, customization and examples.
 
 
 Quick install

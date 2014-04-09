@@ -1,0 +1,60 @@
+						<section>
+						<div class="sidebar-widget">
+							<div class="sidebar-header">
+								<h4>Categories</h4>
+							</div>
+							<div class="sidebar-content">
+								<ul class="ul_cat">
+                                                                        {% for cat in site.categories %}
+                                                                        <li><a href="{{ root_url }}/{{ cat[0] }}">{{ cat[0] }}</a></li>
+                                                                        {% endfor %}
+<!--
+									<li><a href="#" title="">Some Title</a></li>
+-->
+								</ul>
+							</div>
+						</div>
+						</section>
+
+						<!-- RECENT POSTS WIDGET -->
+						<section>
+						<div class="sidebar-widget">
+							<div class="sidebar-header">
+								<h4>Recent Posts</h4>
+							</div>
+							{{ site.post }}
+							<div class="sidebar-content">
+								<ul class="ul_recent_post">
+							{% for post in site.posts limit: site.recent_posts %}
+									<li>
+						<!--			    <div class="list-group-item {% if post.url == page.url %}active{% endif %}"></div> -->
+										<a href="{{ root_url }}{{ post.url }}"><img src="{{ root_url }}/images/recent_post.png" alt="" /><span class="plus_icon"></span><span class="img_bg"></span></a>
+										<h5><a href="{{ root_url }}{{ post.url }}" title="">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h5>
+										<span class="post_date">{{ post.date | datetime | date_to_string }}</span>
+									</li>
+						         {% endfor %}
+								</ul>
+							</div>
+						</div>
+						</section>
+						<!-- RECENT POSTS WIDGET ENDS -->
+
+						<!-- TAGS WIDGET -->
+						<section>
+						<div class="sidebar-widget">
+							<div class="sidebar-header">
+								<h4>TAG CLOUD</h4>
+							</div>
+							<div class="sidebar-content">
+								<ul class="ul_tags">
+									<span id="tag-cloud">{% tag_cloud %}</span>
+<!--
+									<li><a href="#" title="">Tag</a></li>
+-->
+								</ul>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+						</section>
+						<!-- TAGS WIDGET ENDS -->
+					

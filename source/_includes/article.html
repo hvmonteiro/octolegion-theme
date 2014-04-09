@@ -1,0 +1,108 @@
+<!-- article -->
+<article>
+{% unless page.no_header %}
+  <header class="entry-header">
+      <h2 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{% if site.title %}{{ post.title }}{% else %}{{ post.title }}{% endif %}</a></h2>
+  </header>
+{% endunless %}
+{% if index %}
+    <div class="entry-content">
+           <p>{{ content | excerpt }}</p>
+    </div>
+    <footer class="entry-footer">
+       {% unless page.meta == false %}
+           <div class="entry-meta">
+                 {% include post/date.html %}{{ time }}
+<!--
+             {% if site.disqus_short_name and page.comments != false and post.comments != false and site.disqus_show_comment_count == true %}
+                | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread"
+                  data-disqus-identifier="{% if post.meta.disqus_id %}{{ post.meta.disqus_id }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">Comments</a>
+             {% endif %}
+-->
+                 <span class="byline"><span class="author vcard">
+		        <i class="icon-author"></i> <a rel="author" href="#" class="url fn n">{{ site.author }}</a>
+	         </span></span>	
+
+                 <span class="cat-links">
+                        <i class="icon-cat-links"></i>
+                        <a rel="category" title="" href="categories/{{ page.category }}">{{ page.category }}</a>
+                 </span>
+
+             {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
+             {% if excerpted == 'true' %}
+                 <a href="{{ root_url }}{{ post.url }}" class="read_more pull-right">{{ site.excerpt_link }}</a>
+             {% endif %}
+           </div>
+       {% endunless %}
+    </footer>
+
+{% else %}
+    <footer class="entry-footer">
+       {% unless page.meta == false %}
+           <div class="entry-meta entry-meta-single">
+                 {% include post/date.html %}{{ time }}
+
+                 <span class="byline"><span class="author vcard">
+		        <i class="icon-author"></i> <a rel="author" href="#" class="url fn n">{{ site.author }}</a>
+	         </span></span>	
+
+                 <span class="cat-links">
+                        <i class="icon-cat-links"></i>
+                        <a rel="category" title="" href="categories/{{ page.category }}">{{ page.category }}</a>
+                 </span>
+           </div>
+       {% endunless %}
+    </footer>
+
+<div class="entry-content">
+<p>{{ content }}</p>
+</div>
+<div class="post_tags">
+<i class="icon-tags"></i> &nbsp;				
+<a rel="tag" href="#">content</a>
+<a rel="tag" href="#">template</a>
+<a rel="tag" href="#">keyword</a>
+<a rel="tag" href="#">html</a>
+<a rel="tag" href="#">template</a>
+<a rel="tag" href="#">onepage</a>
+</div>
+{% endif %}
+
+</article>
+<!-- article ends -->
+
+{% if index == false %}
+<section>
+ <div class="comments-area" id="comments">
+   <h2 class="comments-title">COMMENTS	</h2>
+    <ol class="comment-list">
+
+           <li class="comment even thread-even depth-1" id="comment-1">
+               <article class="comment-body">
+                   <footer class="comment-meta">
+                       <div class="comment-author vcard">
+                           <img width="55" height="64" class="avatar avatar-34 photo avatar-default" src="images/blog/author-comment.png" alt="">						
+                           <span class="fn"><a class="url" rel="external nofollow" href="single.html">Mr WordPress</a></span>													
+                           <span class="time">
+                               <time datetime="2013-11-29T13:31:35+00:00">
+                                   November 29, 2013 at 1:31 pm							
+                               </time> | <span class="reply"> <a href="single.html" title="">Reply</a> </span>
+                           </span>
+    
+                           </div><!-- .comment-author -->
+                   </footer><!-- .comment-meta -->
+                   <div class="comment-content">
+                     <p>Hi, this is a comment.<br>To delete a comment, just log in and view the post's comments. There you will have the option to edit or delete them.</p>
+<!--
+             {% if site.disqus_short_name and page.comments != false and post.comments != false and site.disqus_show_comment_count == true %}
+                | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread"
+                  data-disqus-identifier="{% if post.meta.disqus_id %}{{ post.meta.disqus_id }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">Comments</a>
+             {% endif %}
+-->
+                   </div><!-- .comment-content -->
+               </article><!-- .comment-body -->
+           </li><!-- #comment-## -->
+    </ol>
+ </div>
+</section>
+{% endif %}

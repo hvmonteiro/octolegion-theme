@@ -1,0 +1,41 @@
+	<!-- menu -->
+	<section id="id_menu" class="single_page_menu">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<nav class="navbar yamm navbar-default" role="navigation">
+						<!--
+						
+						-->	
+							<div class="navbar-header">
+								<div class="pull-left">
+									<!--<img class="logo" src="images/header/logo.png"  alt="" />-->
+            								<a class="navbar-brand" href="{{ root_url }}/">{{ site.title }}</a>
+								</div>
+								<button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle">
+									<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+								</button>
+							</div>
+							<div id="navbar-collapse-1" class="navbar-collapse collapse nav_ul_menu">
+								<ul class="nav navbar-nav">
+									<li {% if page.navbar == 'Home' %}class="current"{% endif %}><a href="{{ site.url }}/">Home</a></li>
+									<li {% if page.navbar == 'Blog' %}class="current"{% endif %}><a href="{{ root_url }}/">Blog</a></li>
+                                                                        {% for cat in site.categories %}
+                                                                        <li {% if page.navbar == '{{ cat[0] }}' %}class="current"{% endif %}><a href="{{ root_url }}/{{ cat[0] }}">{{ cat[0] }}</a></li>
+                                                                        {% endfor %}
+<!--
+									<li {% if page.navbar == 'Home' %}class="current"{% endif %}><a href="{{ root_url }}/">Home</a></li>
+									<li {% if page.navbar == 'About' %}class="current"{% endif %}><a href="{{ root_url }}/#id_about">About</a></li>
+									<li {% if page.navbar == 'Resume' %}class="current"{% endif %}><a href="{{ root_url }}/#id_resume">Resume</a></li>
+									<li {% if page.navbar == 'Blog' %}class="current"{% endif %}><a href="{{ root_url }}/blog">Blog</a></li>
+									<li {% if page.navbar == 'Archives' %}class="current"{% endif %}><a href="{{ root_url }}/blog/archives">Archives</a></li>
+									<li {% if page.navbar == 'Contact' %}class="current"{% endif %}><a href="{{ root_url }}/#id_contact">Contact</a></li>
+-->
+								</ul>
+							</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- menu ends -->

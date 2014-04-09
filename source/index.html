@@ -1,0 +1,36 @@
+---
+layout: default
+navbar: Blog
+---
+
+<div class="row">
+  <div class="page-content {% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-9{% else %}col-md-12{% endunless %}">
+    <div class="blog-index">
+      {% assign index = true %}
+      {% for post in paginator.posts %}
+      {% assign content = post.content %}
+          {% include article.html %}
+      {% endfor %}
+    </div>
+			
+    <!-- pagination -->
+    <div class="post_pagination text-center">
+
+      {% if paginator.next_page %}
+		<a href="{{paginator.next_page}}"  title="" class="previous page-numbers pull-left">&lt;&lt; Previous</a>									
+      {% else %}
+		<a href="#"  title="" class="previous page-numbers disabled pull-left">&lt;&lt; Previous</a>								
+      {% endif %}
+		&nbsp;<span class="current page-numbers">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>&nbsp;
+      {% if paginator.previous_page %}
+		<a href="{{paginator.previous_page}}"  title="" class="next page-numbers pull-right">Next &gt;&gt;</a>						
+      {% else %}
+		<a href="#"  title="" class="next page-numbers disabled pull-right">Next &gt;&gt;</a>								
+      {% endif %}
+		<div class="clear"></div>
+	</div>
+	<div class="clearfix"></div>
+	<!-- pagination ends -->
+
+	</div>
+</div>

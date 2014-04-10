@@ -29,3 +29,7 @@ the `master` branch from https://github.com/imathis/octopress
 (documented at http://octopress.org/).
 
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/hugovmonteiro/octolegion-theme/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+

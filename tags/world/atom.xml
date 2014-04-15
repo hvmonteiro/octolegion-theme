@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: world | Hugo V. Monteiro]]></title>
+  <link href="http://blog.hugovmonteiro.net/tags/world/atom.xml" rel="self"/>
+  <link href="http://blog.hugovmonteiro.net/"/>
+  <updated>2014-04-15T13:08:29+00:00</updated>
+  <id>http://blog.hugovmonteiro.net/</id>
+  <author>
+    <name><![CDATA[Hugo V. Monteiro]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello world!]]></title>
+    <link href="http://blog.hugovmonteiro.net/blog/2014/04/02/hello-world/"/>
+    <updated>2014-04-02T18:08:10+00:00</updated>
+    <id>http://blog.hugovmonteiro.net/blog/2014/04/02/hello-world</id>
+    <content type="html"><![CDATA[<p>Hellooo&hellip;.</p>
+]]></content>
+  </entry>
+  
+</feed>

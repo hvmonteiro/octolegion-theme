@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Hugo V. Monteiro]]></title>
+  <link href="http://blog.hugovmonteiro.net/atom.xml" rel="self"/>
+  <link href="http://blog.hugovmonteiro.net/"/>
+  <updated>2014-04-15T13:08:29+00:00</updated>
+  <id>http://blog.hugovmonteiro.net/</id>
+  <author>
+    <name><![CDATA[Hugo V. Monteiro]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[First Post]]></title>
+    <link href="http://blog.hugovmonteiro.net/blog/2014/04/04/category1-slash-first-post/"/>
+    <updated>2014-04-04T11:56:09+00:00</updated>
+    <id>http://blog.hugovmonteiro.net/blog/2014/04/04/category1-slash-first-post</id>
+    <content type="html"><![CDATA[<h1>My First Post Under a Category</h1>
+
+<ul>
+<li>test 1</li>
+<li>test 2</li>
+</ul>
+
+
+<p>some text <em>italic</em> and <em>bold</em>.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>ls -l
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Second Post]]></title>
+    <link href="http://blog.hugovmonteiro.net/blog/2014/04/04/second-post/"/>
+    <updated>2014-04-04T11:55:41+00:00</updated>
+    <id>http://blog.hugovmonteiro.net/blog/2014/04/04/second-post</id>
+    <content type="html"><![CDATA[<h1>Second Post</h1>
+
+<h2>something</h2>
+
+<ul>
+<li>text1</li>
+<li>text 2</li>
+</ul>
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet pulvinar tellus. In ullamcorper tellus at quam sagittis condimentum. Donec id odio eu quam convallis pharetra.<!-- more --> Nunc a tortor nec libero condimentum ultrices a in mauris. Praesent non dictum justo. Praesent sed orci quis nibh facilisis condimentum in eu metus. Nam suscipit commodo mollis. Nam fringilla ipsum arcu, et tincidunt lacus varius at. Donec et nisi volutpat, sodales nunc ut, porttitor sapien. Sed et ipsum nisl. Sed justo purus, malesuada eu ornare id, pellentesque sed lorem. Cras elit odio, gravida sed urna eget, commodo molestie massa. Nulla viverra dictum eleifend. Fusce iaculis sodales placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+<p>Pellentesque in gravida velit. Sed ac dictum felis, vitae hendrerit nibh. Suspendisse eu tellus et risus hendrerit lacinia eu vitae sapien. Sed vitae ligula et eros lobortis ullamcorper eu in nibh. Mauris metus erat, hendrerit non libero non, adipiscing porttitor eros. Nunc consectetur metus eu urna blandit pellentesque. Sed non tellus semper, tempus velit et, laoreet quam.</p>
+
+<p>Sed adipiscing ligula non metus tempus, vitae imperdiet ante varius. Vivamus viverra, mi id vulputate congue, dolor magna aliquam nisi, quis venenatis dui nisi non odio. Proin erat erat, volutpat at volutpat ut, porttitor ac ligula. Nunc luctus felis vitae eros pellentesque porttitor. Duis in porta tortor, ut congue nunc. Ut dapibus erat sit amet justo malesuada consectetur. Donec gravida interdum ornare. Etiam sed ante ante. Fusce in mi at elit convallis posuere. Suspendisse potenti. Maecenas fermentum lectus quis congue rutrum. Maecenas nec nisl id lorem tristique accumsan ut et justo. Proin adipiscing bibendum dui eu consequat. In hac habitasse platea dictumst. Proin eu felis erat.</p>
+
+<p>Aliquam et eros ipsum. Nullam pulvinar adipiscing felis, et tempus quam blandit eget. Cras tincidunt risus ut suscipit ullamcorper. Quisque sollicitudin condimentum eros, sit amet pretium ante vehicula a. Donec pulvinar sapien vitae imperdiet auctor. Nam non mi convallis sem molestie venenatis vel porttitor dui. Quisque gravida justo sit amet eleifend aliquet. Sed pharetra sollicitudin eros, sed posuere eros pharetra ut. Vestibulum porta nulla ligula, nec mollis tortor cursus et.</p>
+
+<p>Donec interdum nunc eu porta suscipit. Mauris consectetur eu sem sed aliquam. Donec vehicula feugiat odio et facilisis. Ut ut quam fermentum, adipiscing leo sit amet, accumsan diam. Donec sit amet sodales ipsum. Fusce a metus nisl. Proin egestas vel massa id eleifend. Phasellus vulputate nisl id dolor facilisis, at rutrum augue sagittis. Vivamus vel viverra nulla. Aenean a mattis arcu, sed tristique felis. Ut viverra mauris neque, nec sollicitudin lacus vestibulum id. Nam eget enim scelerisque, eleifend nulla eu, scelerisque quam.</p>
+
+<p>Vestibulum venenatis volutpat est quis sagittis. Donec a consequat enim. Quisque luctus posuere sapien non ornare. Duis tincidunt, turpis non ultricies interdum, eros magna dictum tellus, nec tincidunt leo mauris vel leo. Nullam scelerisque ornare lacus non eleifend. Donec non turpis eros. Suspendisse egestas nisl ut nisl ornare dignissim. Nunc venenatis augue sed ante mattis gravida. Fusce accumsan semper risus, convallis volutpat turpis dictum aliquam. Praesent mattis auctor fermentum. Aenean ac nunc consectetur, semper sem nec, rutrum massa. Phasellus dapibus semper lacus, eu hendrerit nunc. Cras facilisis nulla lorem, sed bibendum enim volutpat sed. Curabitur rhoncus sapien vel orci aliquet, non mattis purus condimentum. Praesent erat felis, luctus id interdum a, accumsan et lacus. Fusce varius laoreet nisi sed posuere.</p>
+
+<p>In quis mi consequat, tincidunt sem eu, tristique erat. Donec sed egestas mi. Nulla a fringilla metus, at dictum dui. Nulla condimentum mi nisi, vitae pharetra libero malesuada id. Morbi id ultricies velit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer accumsan erat et sem suscipit vulputate. Vestibulum tempus porttitor est quis vestibulum. Fusce mollis nulla et lobortis euismod. Nam sit amet tellus ultricies, vulputate lacus non, adipiscing diam. Pellentesque auctor lectus rutrum auctor tincidunt. Donec non volutpat neque.</p>
+
+<p>Integer at rhoncus nisi, nec pellentesque odio. Phasellus dapibus rhoncus ante. Maecenas vitae neque tempor, mollis tellus id, eleifend sapien. Pellentesque ullamcorper, lacus a elementum feugiat, velit magna sagittis turpis, in interdum nibh risus sed diam. Sed in massa dapibus leo posuere ultricies sagittis sit amet ligula. Curabitur lacus eros, venenatis vel justo in, lacinia dignissim libero. Nulla mattis mi a tellus dictum tincidunt.</p>
+
+<p>Maecenas interdum, quam vitae ullamcorper adipiscing, nisl dui tincidunt arcu, id porta est mi ac velit. Etiam lacinia turpis sed urna laoreet lobortis. In tempor nunc eu augue pellentesque venenatis. Etiam quis urna fermentum, luctus tortor cursus, consectetur elit. Phasellus nulla odio, tincidunt ut feugiat a, bibendum sit amet tellus. Phasellus ac magna tellus. Sed commodo justo ornare eros lobortis, at porttitor nulla dapibus. Maecenas viverra, risus non scelerisque volutpat, orci arcu venenatis est, eu tempor massa diam sit amet velit. Quisque adipiscing ante at nulla eleifend, ut adipiscing lacus congue. Aliquam erat volutpat. Pellentesque pretium mollis dolor. Nam varius adipiscing velit, vel vulputate tortor consequat eget. Nunc dignissim massa eu tincidunt blandit. Vestibulum varius mi a quam fringilla euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+
+<p>Sed facilisis, leo ac interdum ullamcorper, libero ipsum sodales massa, et aliquam tortor lorem sed sapien. Duis bibendum massa sit amet mi vestibulum, ac eleifend orci dictum. Praesent accumsan lorem et porttitor scelerisque. Nam elementum molestie porta. Proin dapibus ac quam ut tempus. Curabitur urna neque, scelerisque ac pellentesque ut, venenatis ut quam. Nulla facilisi. Pellentesque sollicitudin odio sit amet justo pretium, sit amet accumsan magna fringilla. Morbi pharetra ipsum eu molestie consequat. Mauris congue dapibus ornare. Ut ut blandit arcu. Cras dignissim, velit consectetur hendrerit viverra, libero ligula tempus urna, vel consectetur tellus lorem sit amet nibh. Aenean euismod interdum metus a tempus. Maecenas sit amet magna diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hello world!]]></title>
+    <link href="http://blog.hugovmonteiro.net/blog/2014/04/02/hello-world/"/>
+    <updated>2014-04-02T18:08:10+00:00</updated>
+    <id>http://blog.hugovmonteiro.net/blog/2014/04/02/hello-world</id>
+    <content type="html"><![CDATA[<p>Hellooo&hellip;.</p>
+]]></content>
+  </entry>
+  
+</feed>

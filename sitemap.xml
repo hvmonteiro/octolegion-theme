@@ -1,63 +1,63 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://blog.hugovmonteiro.net/blog/2014/04/02/hello-world/</loc>
+        <loc>http://hugovmonteiro.github.io/octolegion-theme/blog/2014/04/02/hello-world/</loc>
         <lastmod>2014-04-15T12:57:06+00:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.hugovmonteiro.net/blog/2014/04/04/second-post/</loc>
+        <loc>http://hugovmonteiro.github.io/octolegion-theme/blog/2014/04/04/second-post/</loc>
         <lastmod>2014-04-15T12:57:06+00:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.hugovmonteiro.net/blog/2014/04/04/category1-slash-first-post/</loc>
+        <loc>http://hugovmonteiro.github.io/octolegion-theme/blog/2014/04/04/category1-slash-first-post/</loc>
         <lastmod>2014-04-15T12:57:06+00:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.hugovmonteiro.net/robots.txt</loc>
+        <loc>http://hugovmonteiro.github.io/octolegion-theme/robots.txt</loc>
         <lastmod>2014-04-15T12:57:06+00:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.hugovmonteiro.net/</loc>
+        <loc>http://hugovmonteiro.github.io/octolegion-theme/</loc>
         <lastmod>2014-04-15T12:57:06+00:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.hugovmonteiro.net/blog/archives/</loc>
+        <loc>http://hugovmonteiro.github.io/octolegion-theme/blog/archives/</loc>
         <lastmod>2014-04-15T12:57:06+00:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.hugovmonteiro.net/assets/bootstrap/docs/css.html</loc>
+        <loc>http://hugovmonteiro.github.io/octolegion-theme/assets/bootstrap/docs/css.html</loc>
         <lastmod>2014-04-15T12:57:07+00:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.hugovmonteiro.net/assets/bootstrap/docs/components.html</loc>
+        <loc>http://hugovmonteiro.github.io/octolegion-theme/assets/bootstrap/docs/components.html</loc>
         <lastmod>2014-04-15T12:57:07+00:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.hugovmonteiro.net/assets/bootstrap/docs/javascript.html</loc>
+        <loc>http://hugovmonteiro.github.io/octolegion-theme/assets/bootstrap/docs/javascript.html</loc>
         <lastmod>2014-04-15T12:57:07+00:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.hugovmonteiro.net/assets/bootstrap/docs/</loc>
+        <loc>http://hugovmonteiro.github.io/octolegion-theme/assets/bootstrap/docs/</loc>
         <lastmod>2014-04-15T12:57:07+00:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.hugovmonteiro.net/assets/bootstrap/docs/about.html</loc>
+        <loc>http://hugovmonteiro.github.io/octolegion-theme/assets/bootstrap/docs/about.html</loc>
         <lastmod>2014-04-15T12:57:07+00:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.hugovmonteiro.net/assets/bootstrap/docs/getting-started.html</loc>
+        <loc>http://hugovmonteiro.github.io/octolegion-theme/assets/bootstrap/docs/getting-started.html</loc>
         <lastmod>2014-04-15T12:57:07+00:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.hugovmonteiro.net/assets/bootstrap/docs/migration.html</loc>
+        <loc>http://hugovmonteiro.github.io/octolegion-theme/assets/bootstrap/docs/migration.html</loc>
         <lastmod>2014-04-15T12:57:07+00:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.hugovmonteiro.net/assets/bootstrap/docs/customize.html</loc>
+        <loc>http://hugovmonteiro.github.io/octolegion-theme/assets/bootstrap/docs/customize.html</loc>
         <lastmod>2014-04-15T12:57:08+00:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.hugovmonteiro.net/about/</loc>
+        <loc>http://hugovmonteiro.github.io/octolegion-theme/about/</loc>
         <lastmod>2014-04-15T12:57:09+00:00</lastmod>
     </url>
 </urlset>

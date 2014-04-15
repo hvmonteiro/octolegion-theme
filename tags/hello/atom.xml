@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tag: hello | Hugo V. Monteiro]]></title>
-  <link href="http://blog.hugovmonteiro.net/tags/hello/atom.xml" rel="self"/>
-  <link href="http://blog.hugovmonteiro.net/"/>
+  <link href="http://hugovmonteiro.github.io/octolegion-theme/tags/hello/atom.xml" rel="self"/>
+  <link href="http://hugovmonteiro.github.io/octolegion-theme/"/>
   <updated>2014-04-15T13:08:29+00:00</updated>
-  <id>http://blog.hugovmonteiro.net/</id>
+  <id>http://hugovmonteiro.github.io/octolegion-theme/</id>
   <author>
     <name><![CDATA[Hugo V. Monteiro]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hello world!]]></title>
-    <link href="http://blog.hugovmonteiro.net/blog/2014/04/02/hello-world/"/>
+    <link href="http://hugovmonteiro.github.io/octolegion-theme/blog/2014/04/02/hello-world/"/>
     <updated>2014-04-02T18:08:10+00:00</updated>
-    <id>http://blog.hugovmonteiro.net/blog/2014/04/02/hello-world</id>
+    <id>http://hugovmonteiro.github.io/octolegion-theme/blog/2014/04/02/hello-world</id>
     <content type="html"><![CDATA[<p>Hellooo&hellip;.</p>
 ]]></content>
   </entry>

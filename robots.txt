@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://blog.hugovmonteiro.net/sitemap.xml 
+Sitemap: http://hugovmonteiro.github.io/octolegion-theme/sitemap.xml 

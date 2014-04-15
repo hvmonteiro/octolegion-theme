@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Category1 | Hugo V. Monteiro]]></title>
-  <link href="http://blog.hugovmonteiro.net/blog/categories/category1/atom.xml" rel="self"/>
-  <link href="http://blog.hugovmonteiro.net/"/>
+  <link href="http://hugovmonteiro.github.io/octolegion-theme/blog/categories/category1/atom.xml" rel="self"/>
+  <link href="http://hugovmonteiro.github.io/octolegion-theme/"/>
   <updated>2014-04-15T13:08:29+00:00</updated>
-  <id>http://blog.hugovmonteiro.net/</id>
+  <id>http://hugovmonteiro.github.io/octolegion-theme/</id>
   <author>
     <name><![CDATA[Hugo V. Monteiro]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[First Post]]></title>
-    <link href="http://blog.hugovmonteiro.net/blog/2014/04/04/category1-slash-first-post/"/>
+    <link href="http://hugovmonteiro.github.io/octolegion-theme/blog/2014/04/04/category1-slash-first-post/"/>
     <updated>2014-04-04T11:56:09+00:00</updated>
-    <id>http://blog.hugovmonteiro.net/blog/2014/04/04/category1-slash-first-post</id>
+    <id>http://hugovmonteiro.github.io/octolegion-theme/blog/2014/04/04/category1-slash-first-post</id>
     <content type="html"><![CDATA[<h1>My First Post Under a Category</h1>
 
 <ul>

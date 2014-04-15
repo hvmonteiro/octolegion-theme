@@ -1,0 +1,88 @@
+/* This is a customization used in 'recent posts' sidebar content
+  that isnt' declared original bootstrap stylesheets.
+ This is just a refecerence, it's not used when using the theme.
+
+ This content was manually inserted in source/stylesheets/style.css
+
+*/
+
+#content .post_pagination {
+       text-align: center;
+}
+
+/* WIDGET RECENT POST */
+.sidebar-widget .sidebar-content ul.ul_recent_post{
+}
+.sidebar-widget .sidebar-content ul.ul_recent_post  li {
+      padding:10px;
+}
+.sidebar-widget .sidebar-content ul.ul_recent_post  li:nth-child(odd){
+      background-color:#f6f6f6;
+}
+.sidebar-widget .sidebar-content ul.ul_recent_post  li:nth-child(even){
+      background-color:#fcfcfc;
+}
+.sidebar-widget .sidebar-content ul.ul_recent_post  li:after {
+      clear:both;
+      content:"";
+      display:table;
+}
+.sidebar-widget .sidebar-content ul.ul_recent_post  li>a{
+      float:left;
+      display:block;
+      margin:0 10px 0 0;
+}
+.sidebar-widget .sidebar-content ul.ul_recent_post  li>a {
+      text-align: center;
+      display: inline-block;
+      background: #ededed;
+      color: #fff;
+      width:72px;
+      height:72px;
+      position:relative;
+}
+.sidebar-widget .sidebar-content ul.ul_recent_post  li>a span{
+      -webkit-transition: background-color 0.4s;
+      -moz-transition: background-color 0.4s;
+      transition: background-color 0.4s;
+}
+.sidebar-widget .sidebar-content ul.ul_recent_post  li>a:hover  span.img_bg{
+      display:block;
+      background-color:rgba(0, 0, 0, 0.7);
+      width:72px;
+      height:72px;
+      content:"";
+      position:absolute;
+      top:0%;
+      left:0%;
+      z-index:98;
+}
+.sidebar-widget .sidebar-content ul.ul_recent_post  li>a:hover span.plus_icon{
+      display:block;
+      width:80%;
+      height:80%;
+      border:2px solid #ffffff;
+      content:"";
+      position:absolute;
+      top:10%;
+      left:10%;
+      z-index:99;
+	  background: url("../images/recent_post.png") no-repeat scroll center center transparent;
+}
+.sidebar-widget .sidebar-content ul.ul_recent_post  li>h5{
+      margin-top:0px;
+      padding:0px;
+      margin-bottom:5px;
+}
+.sidebar-widget .sidebar-content ul.ul_recent_post  li>h5 a{
+      font-size:13px;
+      color:#707070;
+}
+.sidebar-widget .sidebar-content ul.ul_recent_post  li>h5 a:hover{
+      color:#e74c3c;
+}
+.sidebar-widget .sidebar-content ul.ul_recent_post .post_date {
+      color:#9f9f9f;
+      font-size:12px;
+}
+

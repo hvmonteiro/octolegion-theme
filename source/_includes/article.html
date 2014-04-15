@@ -58,13 +58,11 @@
 <p>{{ content }}</p>
 </div>
 <div class="post_tags">
-<i class="icon-tags"></i> &nbsp;				
-<a rel="tag" href="#">content</a>
-<a rel="tag" href="#">template</a>
-<a rel="tag" href="#">keyword</a>
-<a rel="tag" href="#">html</a>
-<a rel="tag" href="#">template</a>
-<a rel="tag" href="#">onepage</a>
+<i class="icon-tags"></i>
+<ul class="icon-tags">
+{% if page.tags %}{% include post/tags.html %}{% endif %}
+<!-- <a rel="tag" href="#">content</a> -->
+</l>
 </div>
 {% endif %}
 

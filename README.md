@@ -1,9 +1,8 @@
-OctoLegion
-==========
+octolegion
+===========
 
-Legion theme for Octopress based on twitter's bootstrap3.
-Check http://hugovmonteiro.github.io/octolegion-theme/ for 
-setup instructions, customization and examples.
+Legion Bootstrap 3 theme for Octopress ! Check **the demo**
+http://hugovmonteiro.github.io/octolegion/ for setup instructions, customization and examples.
 
 
 Quick install
@@ -11,7 +10,7 @@ Quick install
 
 ```
   % cd octopress
-  % git clone https://github.com/hugovmonteiro/octolegion-theme.git .themes/octolegion
+  % git clone https://github.com/hugovmonteiro/octolegion .themes/octolegion
   % rake 'install[octolegion]'
   % rake generate
 ```
@@ -19,6 +18,7 @@ Quick install
 Plugin Dependencies
 ===================
 Octopress-TagCloud: https://github.com/tokkonopapa/octopress-tagcloud
+Octopress-Tag-Pages: https://github.com/robbyedwards/octopress-tag-pages
 
 
 Octopress version
@@ -27,5 +27,6 @@ Octopress version
 This theme is compatible with Octopress 2.0,
 the `master` branch from https://github.com/imathis/octopress
 (documented at http://octopress.org/).
+
 
 

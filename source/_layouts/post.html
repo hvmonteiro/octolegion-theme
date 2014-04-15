@@ -12,7 +12,8 @@ single: true
         <p class="meta text-muted">
           {% include post/author.html %}
           {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
-          {% include post/categories.html %}
+          {% if page.categories %}{% include post/categories.html %}{% endif %}
+          {% if page.tags %}{% include post/tags.html %}{% endif %}
         </p>
         {% unless page.sharing == false %}
           {% include post/sharing.html %}

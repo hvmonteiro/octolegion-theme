@@ -1,8 +1,9 @@
 octolegion
 ===========
 
-Legion Bootstrap 3 theme for Octopress ! Check **the demo**
-http://hugovmonteiro.github.io/octolegion/ for setup instructions, customization and examples.
+OctoLegion Bootstrap 3 theme for Octopress ! 
+
+Check **the demo** http://hugovmonteiro.github.io/octolegion/ for setup instructions, customization and examples.
 
 
 Quick install
@@ -18,21 +19,17 @@ Quick install
 Plugin Dependencies
 ===================
 Octopress-TagCloud: https://github.com/tokkonopapa/octopress-tagcloud
+
 Octopress-Tag-Pages: https://github.com/robbyedwards/octopress-tag-pages
 
 
 Octopress version
 =================
 
-This theme is compatible with Octopress 2.0,
-the `master` branch from https://github.com/imathis/octopress
+This theme is compatible with Octopress 2.0, the `master` branch from https://github.com/imathis/octopress
 (documented at http://octopress.org/).
 
 
 
-<<<<<<< HEAD
-=======
-
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/hugovmonteiro/octolegion-theme/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
->>>>>>> adcf6a40cf7a4c5ad221621ad80c1d0db0aa1c6a

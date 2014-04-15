@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Tag: world | Hugo V. Monteiro]]></title>
+  <title><![CDATA[Tag: world | OctoLegion Theme]]></title>
   <link href="http://hugovmonteiro.github.io/octolegion-theme/tags/world/atom.xml" rel="self"/>
   <link href="http://hugovmonteiro.github.io/octolegion-theme/"/>
   <updated>2014-04-15T13:08:29+00:00</updated>
   <id>http://hugovmonteiro.github.io/octolegion-theme/</id>
   <author>
-    <name><![CDATA[Hugo V. Monteiro]]></name>
+    <name><![CDATA[Admin]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>

@@ -21,7 +21,7 @@
 									<li {% if page.navbar == 'Home' %}class="current"{% endif %}><a href="{{ site.url }}/">Home</a></li>
 									<li {% if page.navbar == 'Blog' %}class="current"{% endif %}><a href="{{ root_url }}/">Blog</a></li>
                                                                         {% for cat in site.categories %}
-                                                                        <li {% if page.navbar == '{{ cat[0] }}' %}class="current"{% endif %}><a href="{{ root_url }}/{{ cat[0] }}">{{ cat[0] }}</a></li>
+                                                                        <li {% if page.navbar == '{{ cat[0] }}' %}class="current"{% endif %}><a href="{{ root_url }}/blog/categories/{{ cat[0] }}">{{ cat[0] }}</a></li>
                                                                         {% endfor %}
 <!--
 									<li {% if page.navbar == 'Home' %}class="current"{% endif %}><a href="{{ root_url }}/">Home</a></li>

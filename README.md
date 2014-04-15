@@ -3,7 +3,7 @@ octolegion
 
 OctoLegion Bootstrap 3 theme for Octopress ! 
 
-Check **the demo** http://hugovmonteiro.github.io/octolegion/ for setup instructions, customization and examples.
+Check **the demo** http://hugovmonteiro.github.io/octolegion-theme.
 
 
 Quick install
